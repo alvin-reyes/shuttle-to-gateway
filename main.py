@@ -10,7 +10,7 @@ def download_and_upload(url):
 
     # DOWNLOAD!!
 
-    url = "https://dedicated-gw.estuary.tech/upload"
+    url = "https://gateway.estuary.tech/upload"
     payload = {}
     files = [
         ('file', ('file', open('./download/' + line, 'rb'), 'application/octet-stream'))
